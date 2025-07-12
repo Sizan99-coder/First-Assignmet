@@ -334,3 +334,79 @@ body {
   border-radius: 40px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+
+/* connect  */
+
+.connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-center;
+  
+  align-items: center;
+
+  margin: 60px auto;
+  padding: 100px 80px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.connect .text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.connect .text h1 {
+  font-size: 5rem;
+  font-weight: bold;
+
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.connect .form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.connect .form label {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.connect .form input,
+.connect .form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  resize: vertical;
+  background-color: #fff;
+}
+
+.connect .form textarea {
+  min-height: 100px;
+}
+
+.connect .form button {
+  padding: 14px;
+  background-color: #5f5cf0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.connect .form button:hover {
+  background-color: #4b4ad1;
+}
