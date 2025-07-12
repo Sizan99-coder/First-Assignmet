@@ -50,6 +50,12 @@ body {
   border-radius: 6px;
   text-decoration: none;
   font-size: 14px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #0dd851;
 }
 
 .bar {
@@ -95,15 +101,18 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-size: 14px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.focus-btn:hover {
+  background-color: #0dd851;
 }
 
 /* Actions */
 .container2 {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 0px;
   padding-bottom: 120px;
-  /* max-width: 1200px; */
 
   margin: auto;
   display: flex;
@@ -140,11 +149,11 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #4338ca;
+  background-color: #0dd851;
 }
 
 .image-section {
@@ -166,12 +175,12 @@ body {
   background-color: #e8eaff;
   border-radius: 16px;
   margin: 40px 0px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 40px;
+  padding-bottom: 100px;
   text-align: center;
-  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05); */
+  height: 306px;
 }
 
 .stats-container h2 {
@@ -190,7 +199,7 @@ body {
 }
 
 .stat-value {
-  font-size: 42px;
+  font-size: 80px;
   font-weight: bold;
   color: #5b50ff;
 }
@@ -204,8 +213,6 @@ body {
 /* what out users say  */
 
 .testimonials-section {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 100px;
   padding-bottom: 120px;
   text-align: center;
@@ -287,10 +294,10 @@ body {
 /* ready */
 
 .ready {
-  max-width: 900px;
-  margin: 60px auto;
+  margin: 0px auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 80px ;
+  background-color: #FFFFFF;
 }
 
 .ready h1 {
@@ -315,11 +322,11 @@ body {
   border-radius: 8px;
   font-size: 1rem;
   text-decoration: none;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .ready .btn:hover {
-  background-color: #4b4ad1;
+  background-color: #0dd851;
 }
 
 .ready .image-container {
@@ -329,8 +336,7 @@ body {
 }
 
 .ready .image-container img {
-  width: 100%;
-  max-width: 800px;
+  width: 840px;
   border-radius: 40px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
@@ -345,7 +351,7 @@ body {
   align-items: center;
 
   margin: 60px auto;
-  padding: 100px 80px;
+  padding-top: 100px;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -366,7 +372,7 @@ body {
 
 .connect .form {
   flex: 1;
-  min-width: 300px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -404,24 +410,25 @@ body {
   font-size: 1rem;
   cursor: pointer;
   font-weight: 600;
-  transition: background 0.3s;
+  transition: background-color 0.3s;
 }
 
 .connect .form button:hover {
-  background-color: #4b4ad1;
+  background-color: #0dd851;
 }
 
 /* footer */
 
 .footerbox {
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
   color: #666;
-  background-color: #f4f8ff;
+  background-color: #FFFFFF;
+  height: 428px;
 }
 
 .footerbox .logo {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #5f5cf0;
   margin-bottom: 20px;
