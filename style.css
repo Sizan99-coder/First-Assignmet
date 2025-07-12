@@ -200,3 +200,86 @@ body {
   color: #555;
   margin-top: 2px;
 }
+
+/* what out users say  */
+
+.testimonials-section {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+.testTitle {
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+.testimonials-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #facc15; /* Yellow-400 */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.testimonial-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info {
+  font-size: 13px;
+}
+
+.reviewer-info .name {
+  font-weight: 600;
+  color: #333;
+}
+
+.reviewer-info .date {
+  color: #aaa;
+}
