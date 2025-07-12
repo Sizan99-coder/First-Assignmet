@@ -410,3 +410,44 @@ body {
 .connect .form button:hover {
   background-color: #4b4ad1;
 }
+
+/* footer */
+
+.footerbox {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  background-color: #f4f8ff;
+}
+
+.footerbox .logo {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #5f5cf0;
+  margin-bottom: 20px;
+}
+
+.footerbox .description {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.footerbox .menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footerbox .menu a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footerbox .menu a:hover {
+  color: #5f5cf0;
+}
