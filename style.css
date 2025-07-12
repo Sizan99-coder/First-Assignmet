@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f8ff;
   min-height: 100vh;
 }
@@ -201,6 +201,7 @@ body {
   font-size: 80px;
   font-weight: bold;
   color: #5b50ff;
+  font-family: 'Inter', sans-serif;
 }
 
 .stat-label {
