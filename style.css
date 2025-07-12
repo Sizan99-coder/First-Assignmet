@@ -159,3 +159,44 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* status */
+
+.stats-container {
+  background-color: #e8eaff;
+  border-radius: 16px;
+  margin: 40px 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  text-align: center;
+  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05); */
+}
+
+.stats-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  /* gap: 30px; */
+}
+
+.stat-value {
+  font-size: 42px;
+  font-weight: bold;
+  color: #5b50ff;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 2px;
+}
