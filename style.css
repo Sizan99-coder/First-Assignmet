@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8ff;
+  min-height: 100vh;
+}
+.maindiv {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.headerAndBanner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container {
+  background-image: url("assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.signup-btn {
+  background-color: #3f51f4;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bar {
+  height: 100px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f3d2e1,
+    #f3d2e1 10px,
+    #e3c2d1 10px,
+    #e3c2d1 20px
+  );
+  margin: 30px 0;
+  position: relative;
+}
+
+.bar::before {
+  content: "-";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #cc6699;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 160px;
+}
+
+.main-content h1 {
+  font-size: 49px;
+  font-weight: bold;
+  color: #1e1e2f;
+  margin-bottom: 20px;
+}
+
+.focus-btn {
+  display: inline-block;
+  background-color: #4e47fe;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
